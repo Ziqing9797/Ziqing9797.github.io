@@ -1,0 +1,28 @@
+---
+layout: post
+title: '前端面试常见题目'
+subtitle: '一切都是为了更好的未来'
+date: 2018-09-30
+categories: 前端
+cover: ../../../assets/img/blog/forest.jpg
+tags: 前端面试
+---
+
+1. 项目中遇到的问题？技术栈上遇到什么问题
+1. HTTP状态码：
+   1. 418 未登录
+   2. 500 服务器内部错误
+   3. 200 响应成功
+   4. 201 创建成功
+   5. 404 找不到网页
+3. github常用命令
+4. 浏览器缓存：强缓存与协商缓存
+5. 当然有一点要注意，父子关系是无法用z-index来设定上下关系的，一定是子级在上父级在下。
+6. 绝对定位 absolute +css3:
+7. relative：relative定位也是遵循正常的文档流，它没有脱离文档流，但是它的top/left/right/bottom属性是生效的，可以说它是static到absoult的一个中间过渡属性，最重要的是它还占有文档空间，而且占据的文档空间不会随top / right / left / bottom 等属性的偏移而发生变动。
+8. relative和static方式在最外层时是以body标签为定位原点的，而absolute方式在无父级是position非static定位时是以html作为原点定位 
+9. js脚本文件出错，后面代码还会执行吗？不会，可以利用try...catch..进行异常捕获
+10. 使用css属性，使div上下左右移动：css3的transform:translate(X,Y)，和css的相对定位来实现div元素的偏移。
+11. 浏览器兼容问题：chrome下会让小于12px的文本字体默认为12px显示，让 chrome 支持小于 12px 的字体。#box{ font-size: 12px; -webkit-transform: scale(0.75);}
+12. [线上压缩代码--定位错误](https://www.colabug.com/2161595.html)
+13. [移动端1px解决方案](https://www.cnblogs.com/lunarorbitx/p/5287309.html)
