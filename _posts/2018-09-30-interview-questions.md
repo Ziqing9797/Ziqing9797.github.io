@@ -1,12 +1,15 @@
 ---
 layout: post
-title: '前端面试常见题目'
-subtitle: '一切都是为了更好的未来'
+title: 前端面试常见题目
+subtitle: 一切都是为了更好的未来
 date: 2018-09-30
-categories: 前端
-cover: ../../../assets/img/blog/forest.jpg
-tags: 前端面试
+author: ZZQ
+header-img: img/forest.jpg
+catalog: true
+tags: 
+	- 前端面试
 ---
+
 
 1. 项目中遇到的问题？技术栈上遇到什么问题
 1. HTTP状态码：
