@@ -1,10 +1,10 @@
 # Site settings
 title: ZZQ Blog
-SEOTitle: 子清的博客 | BY Blog
+SEOTitle: 子清的博客 | ZZQ Blog
 header-img: img/banner.jpg
 email: ziqing9797@gmail.com
 description: "一切都是为了更好的未来！"
-keyword: "BY, BY Blog, 子清的博客, ziqing, iOS, Apple, iPhone"
+keyword: "ZZQ, ZZQ Blog, 子清的博客, ziqing"
 url: "http://ziqing9797.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "git@github.com:Ziqing9797/Ziqing9797.github.io.git" # you code repository
@@ -18,11 +18,11 @@ sidebar-avatar: /img/profile.jpg      # use absolute URL, seeing it's used in bo
 
 # SNS settings
 RSS: false
-weibo_username:     踟蹰踽
-zhihu_username:     踟蹰踽踽
+weibo_username:     5639519259
+zhihu_username:     chi-chu-ju-ju
 github_username:    Ziqing9797
 #facebook_username:  zzq
-jianshu_username:   踟蹰踽
+jianshu_username:   c8172c7bce32
 #twitter_username:   zzq
 
 
