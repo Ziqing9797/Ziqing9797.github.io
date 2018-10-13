@@ -2,7 +2,29 @@
 layout: page
 description: "Thinking will not overcome fear but action will."
 ---
+<!-- Gitalk 评论 start  -->
+{% if site.gitalk.enable %}
+<!-- Link Gitalk 的支持文件  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 
+<div id="gitalk-container"></div>
+    <script type="text/javascript">
+    var gitalk = new Gitalk({
+
+    // gitalk的主要参数
+        clientID: `73d6ade8c575b897f737`,
+        clientSecret: `a6769f045d7201660307a558dafa330ab1b9ab67`,
+        repo: `Ziqing9797.github.io`,
+        owner: 'Ziqing9797',
+        admin: ['Github 用户名'],
+        id: 'window.location.pathname',
+    
+    });
+    gitalk.render('gitalk-container');
+</script>
+{% endif %}
+<!-- Gitalk end -->
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
